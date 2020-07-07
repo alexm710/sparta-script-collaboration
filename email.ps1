@@ -22,3 +22,4 @@ $smtp.EnableSSL = $true
 $smtp.Credentials = New-Object System.Net.NetworkCredential($Username, $Password);
 $smtp.send($message)
 write-host "Mail Sent"
+echo blank "finished"
